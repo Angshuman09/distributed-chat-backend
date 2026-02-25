@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log
+
+# Dependency directories
+node_modules
+.node_modules
+
+# Build artifacts (compiled JS files and source maps)
+dist
+built
+/lib/
+*.js.map
+*.d.ts
+!src/**/*.d.ts # Keep declaration files if needed in src
+
+# Configuration and environment files
+.env
+.idea
+.vscode/*
+!.vscode/settings.template.json # Optional: track template settings
+!.vscode/tasks.json # Optional: track specific config files
+!.vscode/launch.template.json
+!.vscode/extensions.json
+
+# OS and Editor generated files
+.DS_Store
+Thumbs.db
+*.swp
