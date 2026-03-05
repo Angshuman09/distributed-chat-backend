@@ -2,15 +2,6 @@
 
 A learning project demonstrating distributed systems concepts using WebSocket, Redis pub/sub, and job queues. This project shows how to build a backend architecture where multiple components communicate asynchronously through message queues and pub/sub patterns.
 
-## Learning Goals
-
-This project demonstrates:
-- How WebSocket servers handle real-time connections
-- Using Redis pub/sub for inter-process communication
-- Implementing job queues with BullMQ
-- Separating concerns with worker processes
-- Building distributed systems architecture patterns
-
 ## Architecture
 
 ![System Architecture](./public/architecture.png)
@@ -94,7 +85,7 @@ The screenshot shows the message flow:
 - Client sends: `{"msg":"good to see u are here ","time":1772710399261}`
 - Server broadcasts: `hi I am here :)`
 
-## 🔧 How It Works
+## How It Works
 
 ### WebSocket Server (Express + ws)
 
@@ -127,7 +118,7 @@ Redis enables:
 - Decoupled architecture (worker doesn't need to know about clients)
 - Message broadcasting across different processes
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 distributed-websocket-backend/
@@ -157,7 +148,7 @@ To understand this project better, learn about:
 - **Job Queues** - Background task processing patterns
 - **Distributed Systems** - How independent services communicate
 
-## 👤 Author
+## Author
 
 **Angshuman09**
 
